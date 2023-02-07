@@ -1,2 +1,32 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using DailyLeetCode;
+using DailyLeetCode.Problems;
+
+internal class Program
+{
+    static List<ITest> _problems = new List<ITest>();
+    
+    static void Main(string[] args)
+    {
+        Initialize();
+
+        for (int i = 0; i < _problems.Count; i++)
+        {
+            try
+            {
+                _problems[i].Test();
+                Console.WriteLine($"Problem {i + 1} - Succeeded");
+            }
+            catch (Exception)
+            {
+                Console.WriteLine($"Problem {i + 1} - Failed");
+            }
+        }
+    }
+
+    static void Initialize()
+    {
+        Day1 day1 = new Day1();
+
+        _problems.Add(day1);
+    }
+}

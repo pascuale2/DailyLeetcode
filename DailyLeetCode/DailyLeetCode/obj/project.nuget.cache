@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DF3ftvAPZaPYso45Bdv6vw4FGwbyZEPSeckrsT+4Y3Mn4raaTwXiaLySUS0+FUTa+0jOvxhNT9I1k8b4xhiuEw==",
+  "dgSpecHash": "Y5xQO0YN90qE91/WRb3L5UmeurtSLNHy+rj0pyOLr5t0Koj4/8z92U6J7OLxuxEKMaY8P6Q/ms4aajbSTNoNqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Erwin Pascual\\Documents\\School_Stuff\\Git_Repos\\DailyLeetcode\\DailyLeetCode\\DailyLeetCode\\DailyLeetCode.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Erwin Pascual\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Erwin Pascual\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Erwin Pascual\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }
