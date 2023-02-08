@@ -1,8 +1,6 @@
 ﻿using NUnit.Framework;
 
-using DailyLeetCode.Problems;
-
-namespace DailyLeetCode
+namespace DailyLeetCode.Problems
 {
     /// <summary>
     /// Leetcode Problem 1: Two Sum Problem
@@ -12,7 +10,7 @@ namespace DailyLeetCode
     /// 
     /// You can return the answer in any order.
     /// </summary>
-    internal class Day1 : ITest
+    public class Day1 : ITest
     {
         /// <summary>
         /// Psuedo Code Solution:
@@ -29,7 +27,7 @@ namespace DailyLeetCode
         ///     elif dict does not have key
         ///         dict.Add();
         /// </summary>
-        public int[] TwoSum(int[] nums, int target)
+        int[] TwoSum(int[] nums, int target)
         {
             if (nums == null || nums.Length < 2) { return new int[2]; }
 

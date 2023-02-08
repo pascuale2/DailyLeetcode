@@ -1,5 +1,4 @@
-﻿using DailyLeetCode;
-using DailyLeetCode.Problems;
+﻿using DailyLeetCode.Problems;
 
 internal class Program
 {
@@ -26,7 +25,9 @@ internal class Program
     static void Initialize()
     {
         Day1 day1 = new Day1();
+        Day2 day2 = new Day2();
 
         _problems.Add(day1);
+        _problems.Add(day2);
     }
 }
