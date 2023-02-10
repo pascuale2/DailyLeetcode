@@ -3,7 +3,7 @@
 namespace DailyLeetCode.Problems
 {
     /// <summary>
-    /// Leet Code Problem 191. Number of 1 Bits
+    /// Leet Code Problem 191: Number of 1 Bits
     /// 
     /// Write a function that takes the binary representation of an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
     /// </summary>

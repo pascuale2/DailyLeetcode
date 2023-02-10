@@ -2,11 +2,13 @@
 
 namespace DailyLeetCode.Problems
 {
+    /// <summary>
+    /// Leet Code Problem 217: Contains Duplicate
+    /// 
+    /// Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+    /// </summary>
     public class Day2 : ITest
     {
-        /// <summary>
-        /// Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
-        /// </summary>
         bool ContainsDuplicate(int[] nums)
         {
             HashSet<int> result = new HashSet<int>();
