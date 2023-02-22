@@ -33,6 +33,7 @@ internal class Program
         Day7 day7 = new Day7();
         Day8 day8 = new Day8();
         Day9 day9 = new Day9();
+        Day10 day10 = new Day10();
 
         _problems.Add(day1);
         _problems.Add(day2);
@@ -43,5 +44,6 @@ internal class Program
         _problems.Add(day7);
         _problems.Add(day8);
         _problems.Add(day9);
+        _problems.Add(day10);
     }
 }
