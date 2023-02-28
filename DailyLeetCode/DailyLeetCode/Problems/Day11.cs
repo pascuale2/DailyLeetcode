@@ -2,6 +2,12 @@
 
 namespace DailyLeetCode.Problems
 {
+    /// <summary>
+    /// Leetcode Problem 704: Binary Search
+    /// 
+    /// Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums.
+    /// If target exists, then return its index. Otherwise, return -1. You must write an algorithm with O(log n) runtime complexity.
+    /// </summary>
     public class Day11 : ITest
     {
         int BinarySearch(int[] nums, int target)
